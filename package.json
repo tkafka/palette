@@ -1,7 +1,7 @@
 {
-  "name": "palette",
+  "name": "palette-node-7-plus",
   "version": "0.1.0",
-  "description": "Image color palette with node-canvas",
+  "description": "Image color palette with node-canvas. Fork fixed for node 7+.",
   "keywords": [
     "palette",
     "color",
@@ -12,12 +12,11 @@
   ],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "devDependencies": {
-    "canvas": "^1.5.0",
-    "vbench": "0.1.x"
+    "canvas": "^1.6.2"
   },
   "main": "index",
   "engines": {
-    "node": "2.x.x"
+   "node": ">=0.6.x"
   },
   "repository": {
     "type": "git",
